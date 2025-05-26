@@ -4,6 +4,9 @@ import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import SmoothScroll from '@/components/SmoothScroll';
 
 const montserrat = localFont({
   src: '../fonts/Montserrat.ttf',
@@ -41,12 +44,16 @@ export default async function RootLayout({
   }
   const messages = await getMessages();
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body
-        className={`${montserrat.variable} ${mansfield.variable} antialiased font-mansfield`}>
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
+        className={`${montserrat.variable} ${mansfield.variable} antialiased font-mansfield bg-white-main`}>
+        <SmoothScroll>
+          <NextIntlClientProvider messages={messages}>
+            <Navbar />
+            {children}
+            <Footer />
+          </NextIntlClientProvider>
+        </SmoothScroll>
       </body>
     </html>
   );

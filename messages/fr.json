@@ -1,1 +1,309 @@
-{ "title": "asd" }
+{
+  "Layout": {
+    "Navbar": {
+      "Links": {
+        "Home": {
+          "Text": "Home",
+          "Link": "/#hero"
+        },
+        "Services": {
+          "Text": "Services",
+          "Link": "/#services"
+        },
+        "Contact": {
+          "Text": "Contact",
+          "Link": "/contact"
+        }
+      },
+      "CTA": {
+        "Text": "Get an estimate",
+        "Link": "/contact"
+      }
+    },
+    "Footer": {
+      "Logo": "EZ Patch",
+      "Navigation": {
+        "Title": "Navigation",
+        "Links": {
+          "Home": {
+            "Text": "Home",
+            "Link": "/#hero"
+          },
+          "Locations": {
+            "Text": "Locations",
+            "Link": "/contact"
+          },
+          "Contact": {
+            "Text": "Contact",
+            "Link": "/contact"
+          }
+        }
+      },
+      "Services": {
+        "Title": "Services",
+        "Links": {
+          "DrywallRepair": {
+            "Text": "Drywall repair",
+            "Link": "/services/drywall-repair"
+          },
+          "CeilingRepair": {
+            "Text": "Ceiling repair",
+            "Link": "/services/ceiling-repair"
+          },
+          "DrywallInstallation": {
+            "Text": "Drywall Installation",
+            "Link": "/services/drywall-installation"
+          },
+          "TapingMudding": {
+            "Text": "Taping & Mudding",
+            "Link": "/services/taping-mudding"
+          },
+          "PaintingPriming": {
+            "Text": "Painting & Priming",
+            "Link": "/services/painting-priming"
+          },
+          "TextureMatching": {
+            "Text": "Texture Matching",
+            "Link": "/services/texture-matching"
+          },
+          "WaterDamageRepair": {
+            "Text": "Water Damage Repair",
+            "Link": "/services/water-damage-repair"
+          },
+          "LathPlasterRepair": {
+            "Text": "Lath & Plaster Repair",
+            "Link": "/services/lath-plaster-repair"
+          }
+        }
+      },
+      "WorkingHours": {
+        "Title": "Working hours",
+        "Info": "06:00 - 18:00 <newline></newline>Monday - Sunday"
+      },
+      "Contact": {
+        "Title": "Contact",
+        "GetEstimate": {
+          "Text": "Get an estimate",
+          "Link": "/#contact"
+        }
+      },
+      "BottomBar": {
+        "Copyright": "©2024 Ez Patch. All rights reserved.",
+        "Privacy": {
+          "Text": "Privacy Policy",
+          "Link": "/privacy-policy"
+        },
+        "Developer": {
+          "Text": "Website by: vanu.software",
+          "Link": "https://vanu.software"
+        }
+      }
+    }
+  },
+  "HomePage": {
+    "Hero": {
+      "Title": "Drywall Repairs, Installs & Finishing, in French",
+      "Subtitle": "We handle everything, from the smallest patch to the final coat of paint, with one crew you can rely on from start to completion."
+    },
+    "Services": {
+      "Title": "Services we provide",
+      "DrywallRepair": {
+        "Title": "Drywall Repair",
+        "Description": "Fix holes, cracks, and everyday wear. We patch it clean, blend it smooth, and leave no trace.",
+        "Path": "/services/drywall-repair"
+      },
+      "CeilingRepair": {
+        "Title": "Ceiling Repair",
+        "Description": "From minor cracks to sagging panels or leaks, we restore your ceilings to a clean, sturdy finish.",
+        "Path": "/services/ceiling-repair"
+      },
+      "DrywallInstallation": {
+        "Title": "Drywall Installation",
+        "Description": "New walls, room additions, or remodeling—we install drywall quickly and professionally.",
+        "Path": "/services/drywall-installation"
+      },
+      "TapingMudding": {
+        "Title": "Taping & Mudding",
+        "Description": "Perfect seams, no bubbles, no uneven lines. We tape and mud for flawless finishes.",
+        "Path": "/services/taping-mudding"
+      },
+      "PaintingPriming": {
+        "Title": "Painting & Priming",
+        "Description": "We prep and paint repaired areas or full walls, matched and finished to perfection.",
+        "Path": "/services/painting-priming"
+      },
+      "TextureMatching": {
+        "Title": "Texture Matching",
+        "Description": "Orange peel, knockdown, or custom patterns—matched exactly so repairs disappear.",
+        "Path": "/services/texture-matching"
+      },
+      "WaterDamageRepair": {
+        "Title": "Water Damage Repair",
+        "Description": "Cut out damaged drywall, dry the area, and rebuild it like it never happened.",
+        "Path": "/services/water-damage-repair"
+      },
+      "LathPlasterRepair": {
+        "Title": "Lath & Plaster Repair",
+        "Description": "Preserve your historic walls with clean, seamless lath and plaster patching.",
+        "Path": "/services/lath-plaster-repair"
+      }
+    },
+    "WhyUs": {
+      "Title": "Why pick us?",
+      "Description": "Get a free, no-obligation quote no, pressure to commit, just honest pricing, clear expectations, and expert advice to help you make the right decision.",
+      "SameDayService": {
+        "Title": "Same-day service available",
+        "Description": "We work efficiently to minimize disruption to your daily life - offering <bold>fast turnaround times</bold>, with most projects completed in just 1 to 3 days, so you can enjoy your home again sooner."
+      },
+      "ProvenProcess": {
+        "Title": "Proven\nProcess",
+        "Description": "Our 3-stage repair approach: patching, sanding/priming, and painting <bold>ensures every project is finished with a high standard</bold>, leaving behind smooth, professional surfaces ready to impress."
+      },
+      "TreatHomeRight": {
+        "Title": "We Treat Your\nHome Right",
+        "Description": "<bold>We treat your home like our own</bold> — carefully protecting surfaces, leaving no mess behind, and completing every job with drywall-specialist professionalism."
+      },
+      "FlexibleScheduling": {
+        "Title": "Flexible 7-day scheduling",
+        "Description": "<bold>We\u2019re available seven days a week</bold> to fit your schedule - including evenings and weekends. So you don\u2019t have to rearrange your life to get the repairs you need."
+      },
+      "DrywallSpecialists": {
+        "Title": "Drywall is What\nWe Do",
+        "Description": "Unlike general contractors, <bold>we specialize exclusively in drywall</bold>. That means sharper skills, cleaner results, and a team that truly understands every detail of the job."
+      }
+    },
+    "Stats": {
+      "JobsCompleted": {
+        "Title": "Satisfied\nCustomers",
+        "Value": "1300"
+      },
+      "HappyCustomers": {
+        "Title": "Walls\nRestored",
+        "Value": "3400"
+      },
+      "FiveStarReviews": {
+        "Title": "Projects\nCompleted",
+        "Value": "450"
+      },
+      "YearsExperience": {
+        "Title": "Years of\nExperience",
+        "Value": "15"
+      }
+    },
+    "Testimonials": {
+      "Title": "Hear from our\n<underline>happy</underline> <underline>customers</underline>",
+      "Subtitle": "Pulled straight from our verified Google Business Profile",
+      "BrandieMarshall": {
+        "Name": "Brandie Marshall",
+        "Text": "I recently had the pleasure of using ezpatch.ca and I couldn't be more satisfied with the results! From start to finish, the experience was seamless. The worker was prompt, professional, and incredibly knowledgeable..."
+      },
+      "LewisJordan": {
+        "Name": "Lewis Jordan",
+        "Text": "One of the fastest and cleanest and cheapest drywall repairs I have seen. Came in at 1pm and done and clean by 3pm and top quality repair."
+      },
+      "SarahLaughlin": {
+        "Name": "Sarah Laughlin",
+        "Text": "Really excellent work from EZ Patch repairing our ceiling, which had damage due to water leakage. Great communication from quote through to work completion, and a friendly, efficient team."
+      },
+      "MitulShah": {
+        "Name": "Mitul Shah",
+        "Text": "The Service work for the drywall is amazing. They provide awesome service. I called them in the afternoon and even though being on a tight schedule, the guy came in the evening and got the work done. The quality of work is also very good. Really recommend them."
+      },
+      "TungVu": {
+        "Name": "Tung Vu",
+        "Text": "Great service. Called in the evening and got the job inspected and quote given the same day. I had to get a hole in the ceiling patched up and very pleased with the craftsmanship. Highly recommend! Will call them again for future drywall repairs."
+      },
+      "ErickMondaca": {
+        "Name": "Erick Mondaca",
+        "Text": "super fast, efficient, on demand service.  we needed a drywall guy , we got a great recommendation, we called the guy and within an hour he was at our house fixing it , and the detail was amazing."
+      },
+      "ZenWeatherbie": {
+        "Name": "Zen Weatherbie",
+        "Text": "Very fast experience from sending my request to receiving the professional in my home for drywall repair. All was done within the same day my request was sent. Thank you!"
+      },
+      "JuniorWhité": {
+        "Name": "Junior Whité",
+        "Text": "We received three quotes, and EZ Patch Drywall Repair offered the best value in both price and speed. Majaic was prompt, polite, and extremely knowledgeable—not just in drywall repair, but also in framing and insulation. We're very happy with the results and grateful for their help in getting our basement back in shape. Thank you, EZ Patch!"
+      }
+    },
+    "BeforeAfter": {
+      "Before": "Before",
+      "After": "After"
+    },
+    "FAQs": {
+      "Title": "Need help?\nCheck out our FAQs",
+      "List": {
+        "Question1": "How long does a typical job take?",
+        "Answer1": "Most drywall jobs are completed within 1 to 3 days, depending on the size and complexity of the repair or installation.",
+
+        "Question2": "What if I need help with a leak or restoration?",
+        "Answer2": "We handle water-damaged drywall, including tear-out, drying guidance, and full restoration from patching to painting.",
+
+        "Question3": "Do you repair cracks from settling?",
+        "Answer3": "Yes, we repair all types of cracks, including those caused by house settling, and ensure a smooth, long-lasting finish.",
+
+        "Question4": "What payment methods do you accept?",
+        "Answer4": "We accept most major payment methods including credit cards, e-transfers, and checks. Payment is typically due upon completion.",
+
+        "Question5": "Do you work on homes with popcorn ceilings?",
+        "Answer5": "Yes, we remove popcorn ceilings and repair any underlying damage, leaving a modern, smooth or textured finish."
+      }
+    },
+    "Contact": {
+      "Title": "Get an estimate today!",
+      "Subtitle": "Next steps",
+      "Step1": "Send us your info",
+      "Step1Description": "Fill out the form with your name, phone number, and a few quick details about the job.",
+      "Step2": "We\u2019ll follow up personally",
+      "Step2Description": "We\u2019ll give you a call or text to chat about the repair and request any photos if needed.",
+      "Step3": "Get a free quote",
+      "Step3Description": "We\u2019ll provide a no-obligation quote and go over timing and availability that works for you.",
+      "Step4": "We get to work",
+      "Step4Description": "Once confirmed, we’ll schedule your repair and take care of everything — fast, clean, and professional.",
+      "Form": {
+        "Fields": {
+          "Name": "Full Name",
+          "NamePlaceholder": "Josh Smith",
+          "NameError": "Name is too long",
+          "NameErrorRequired": "Name is required",
+          "Phone": "Phone Number",
+          "PhonePlaceholder": "(XXX) XXX-XXXX",
+          "PhoneError": "Please enter a valid phone number",
+          "PhoneErrorRequired": "Phone number is required",
+          "Email": "Email Address",
+          "EmailPlaceholder": "josh@email.com",
+          "EmailError": "Please enter a valid email",
+          "EmailErrorRequired": "Email is required",
+          "Service": "Services",
+          "ProvidedServices": {
+            "Service1": "Drywall Repair",
+            "Service2": "Ceiling Repair",
+            "Service3": "Drywall Installation",
+            "Service4": "Taping & Mudding",
+            "Service5": "Painting & Priming",
+            "Service6": "Texture Matching",
+            "Service7": "Water Damage Repair",
+            "Service8": "Lath & Plaster Repair"
+          },
+          "ServicePlaceholder": "Service(s) you need",
+          "ServiceErrorRequired": "Select at least one service",
+          "City": "Area/City",
+          "CityPlaceholder": "Halifax",
+          "CityErrorRequired": "Area/City is required",
+          "JobDetails": "Job Details",
+          "JobDetailsPlaceholder": "E.g. Hole in living room wall from door handle. Needs patch and paint."
+        },
+        "CTA": "Get an estimate"
+      },
+      "ContactPage": {
+        "Title": "Regions we cover",
+        "Regions": {
+          "Region1": "<bold>Nova Scotia:</bold> Halifax, Dartmouth, Bedford, Sackville",
+          "Region2": "<bold>New Brunswick:</bold> Moncton, Saint John, Fredericton",
+          "Region3": "<bold>Prince Edward Island (PEI):</bold> Charlottetown",
+          "Region4": "<bold>Manitoba:</bold> Winnipeg"
+        }
+      }
+    }
+  }
+}

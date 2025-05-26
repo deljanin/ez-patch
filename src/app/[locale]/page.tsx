@@ -1,9 +1,24 @@
-import Image from 'next/image';
+import { BeforeAfter } from "@/components/BeforeAfter";
+import FAQ from "./sections/FAQ";
+import Hero from "./sections/Hero";
+import Services from "./sections/Services";
+import Testimonials from "./sections/Testimonials";
+import WhyUs from "./sections/WhyUs";
+
+import Before from "/public/images/home/before-after/before.jpg";
+import After from "/public/images/home/before-after/after.jpg";
+import Contact from "./sections/Contact";
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-center min-h-screen w-full">
-      <h1 className="">Hello world</h1>
-    </div>
+    <>
+      <Hero />
+      <Services />
+      <WhyUs />
+      <Testimonials />
+      <BeforeAfter before={Before} after={After} />
+      <FAQ />
+      <Contact />
+    </>
   );
 }

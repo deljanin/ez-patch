@@ -1,14 +1,23 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme inline {
   --font-montserrat: var(--font-montserrat);
   --font-mansfield: var(--font-mansfield);
+  --color-white-main: #f3f3f3;
+  --color-red-main: #e52427;
 }
 :root {
 }
 
 body {
   /* font-family: , Arial, Helvetica, sans-serif; */
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+  }
 }
 html.lenis,
 html.lenis body {
