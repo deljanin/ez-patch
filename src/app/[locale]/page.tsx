@@ -1,4 +1,4 @@
-import { BeforeAfter } from "@/components/BeforeAfter";
+import { BeforeAfter } from "@/components/sections/BeforeAfter";
 import FAQ from "./sections/FAQ";
 import Hero from "./sections/Hero";
 import Services from "./sections/Services";

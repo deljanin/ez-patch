@@ -12,7 +12,7 @@ function Hero() {
   return (
     <div className="relative flex min-h-screen w-full flex-col justify-center px-5 sm:px-16 lg:px-32 xl:px-48">
       <div className="flex w-2/5 flex-col gap-7">
-        <H1 styles="lg:text-6xl">{t("Title")}</H1>
+        <H1 styles="lg:text-6xl lg:leading-18">{t("Title")}</H1>
         <p className="text-xl font-extralight">{t("Subtitle")}</p>
         <Link
           href="/#contact"

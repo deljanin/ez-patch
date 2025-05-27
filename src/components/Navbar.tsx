@@ -35,12 +35,12 @@ function Navbar() {
       <Link href="/">
         <Image src={LogoNav} alt="Logo" width={180} height={40} />
       </Link>
-      <ul className="flex items-center gap-8">
+      <ul className="flex items-center gap-10">
         {keys.map((key) => (
           <li key={key} className="group">
             <Link
               href={t(`${key}.Link`)}
-              className="group-hover:text-red-main group-hover:after:bg-red-main relative cursor-pointer transition-all after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-black after:transition-transform after:duration-300 after:content-[''] group-hover:after:origin-bottom-left group-hover:after:scale-x-100"
+              className="group-hover:text-red-main group-hover:after:bg-red-main relative cursor-pointer text-lg transition-all after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-black after:transition-transform after:duration-300 after:content-[''] group-hover:after:origin-bottom-left group-hover:after:scale-x-100"
             >
               {t(`${key}.Text`)}
             </Link>
@@ -53,7 +53,7 @@ function Navbar() {
         </li>
         <li className="group">
           <button
-            className="group-hover:text-red-main group-hover:after:bg-red-main relative cursor-pointer transition-all after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-black after:transition-transform after:duration-300 after:content-[''] group-hover:after:origin-bottom-left group-hover:after:scale-x-100"
+            className="group-hover:text-red-main group-hover:after:bg-red-main relative cursor-pointer text-lg transition-all after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-black after:transition-transform after:duration-300 after:content-[''] group-hover:after:origin-bottom-left group-hover:after:scale-x-100"
             onClick={changeLanguage}
             disabled={isPending}
           >

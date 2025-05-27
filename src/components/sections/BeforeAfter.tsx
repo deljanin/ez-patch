@@ -12,7 +12,7 @@ export function BeforeAfter({
 }) {
   const [sliderPosition, setSliderPosition] = useState(50);
   const [isDragging, setIsDragging] = useState(false);
-  const t = useTranslations("HomePage.BeforeAfter");
+  const t = useTranslations("BeforeAfter");
 
   const handleMove = (clientX: number, rect: DOMRect) => {
     const x = Math.max(0, Math.min(clientX - rect.left, rect.width));

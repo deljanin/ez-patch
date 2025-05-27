@@ -100,6 +100,10 @@
       }
     }
   },
+  "BeforeAfter": {
+    "Before": "Before",
+    "After": "After"
+  },
   "HomePage": {
     "Hero": {
       "Title": "Drywall Repairs, Installs & Finishing",
@@ -226,10 +230,6 @@
         "Text": "We received three quotes, and EZ Patch Drywall Repair offered the best value in both price and speed. Majaic was prompt, polite, and extremely knowledgeable—not just in drywall repair, but also in framing and insulation. We're very happy with the results and grateful for their help in getting our basement back in shape. Thank you, EZ Patch!"
       }
     },
-    "BeforeAfter": {
-      "Before": "Before",
-      "After": "After"
-    },
     "FAQs": {
       "Title": "Need help?\nCheck out our FAQs",
       "List": {
@@ -259,7 +259,7 @@
       "Step3": "Get a free quote",
       "Step3Description": "We\u2019ll provide a no-obligation quote and go over timing and availability that works for you.",
       "Step4": "We get to work",
-      "Step4Description": "Once confirmed, we’ll schedule your repair and take care of everything — fast, clean, and professional.",
+      "Step4Description": "Once confirmed, we\u2019ll schedule your repair and take care of everything — fast, clean, and professional.",
       "Form": {
         "Fields": {
           "Name": "Full Name",
@@ -303,6 +303,184 @@
           "Region3": "<bold>Prince Edward Island (PEI):</bold> Charlottetown",
           "Region4": "<bold>Manitoba:</bold> Winnipeg"
         }
+      }
+    }
+  },
+  "ServicePages": {
+    "DrywallRepair": {
+      "Hero": {
+        "Title": "From Dents to Holes\nWe Restore & Perfect\nYour Walls",
+        "Subtitle": "Drywall repair solutions tailored to restore the beauty of your home or business. From minor cracks to extensive damage, we\u2019re here to deliver lasting results you can trust.",
+        "CTA": "Get an estimate"
+      },
+      "Benefits": {
+        "ExpertCraftsmanship": "Expert\nCraftsmanship",
+        "FastTurnaround": "Fast\nTurnaround",
+        "PremiumMaterials": "Premium\nMaterials",
+        "AffordablePricing": "Affordable\nPricing"
+      },
+      "Intro": {
+        "Title": "Drywall Repair\nYou Can Trust",
+        "Paragraph": "When it comes to drywall repair, precision and attention to detail are essential. Whether your walls have suffered from accidental damage, moisture issues, or everyday wear and tear, we\u2019re here to help.\n\nOur experienced team specializes in restoring walls and ceilings to their original condition, blending repairs into your existing space seamlessly."
+      },
+      "ClosingSection": {
+        "Title": "Turn Frustration\nInto Relief",
+        "Paragraph": "Living with damaged drywall can be frustrating and disruptive. We understand how these imperfections affect your daily comfort and peace of mind.\n\nThat\u2019s why we\u2019re here to provide quick, reliable solutions to restore your space and make it feel whole again.",
+        "CTA": "Get an estimate"
+      }
+    },
+    "CeilingRepair": {
+      "Hero": {
+        "Title": "Restore the Look and\nSafety of Your Ceilings",
+        "Subtitle": "From cracks and sagging to water stains and holes, we bring ceilings back to a solid, flawless finish – fast, clean, and hassle-free.",
+        "CTA": "Get an estimate"
+      },
+      "Benefits": {
+        "ExpertCraftsmanship": "Expert\nCraftsmanship",
+        "FastTurnaround": "Fast\nTurnaround",
+        "PremiumMaterials": "Premium\nMaterials",
+        "AffordablePricing": "Affordable\nPricing"
+      },
+      "Intro": {
+        "Title": "Why Ceiling Damage Shouldn\u2019t Be Ignored",
+        "Paragraph": "Ceilings are more than just overhead surfaces – they protect your home\u2019s structure and comfort. Over time, leaks, settling, or faulty installations can cause cracks, bulging seams, or visible stains.\n\nOur ceiling repair service handles everything from small patches to full panel replacements. We assess the damage, fix the underlying cause if needed, and restore the ceiling with a smooth or textured finish to match the existing surface.\n\nWhether it\u2019s drywall, plaster, or acoustic tile, we make your ceiling look like new again – safe, sound, and spotless."
+      },
+      "ClosingSection": {
+        "Title": "Ready to Fix That\nDamaged Ceiling?",
+        "Paragraph": "Don\u2019t live with unsightly cracks, water marks, or sagging panels. Our experienced team is ready to restore your ceiling with precision and care—keeping your home looking clean, safe, and well-maintained.\nReach out today for reliable ceiling repair.",
+        "CTA": "Get an estimate"
+      }
+    },
+    "DrywallInstallation": {
+      "Hero": {
+        "Title": "Transform Your Space\nwith Flawless Drywall\nInstallation",
+        "Subtitle": "Ready for a fresh look? Our expert drywall installation service delivers perfectly smooth, durable walls for any room – fast, affordable, and built to last.",
+        "CTA": "Get an estimate"
+      },
+      "Benefits": {
+        "ExpertCraftsmanship": "Expert\nCraftsmanship",
+        "FastTurnaround": "Fast\nTurnaround",
+        "PremiumMaterials": "Premium\nMaterials",
+        "AffordablePricing": "Affordable\nPricing"
+      },
+      "Intro": {
+        "Title": "Built to Last, Installed\nto Perfection",
+        "Paragraph": "Whether you\u2019re remodeling a room, finishing a basement, or adding new walls, our drywall installation service guarantees a perfect fit and finish.\n\nWe measure, cut, and secure each panel with precision, then finish seams for a smooth, paint-ready surface. Our team works quickly and efficiently, maintaining the highest standards to ensure your walls look flawless."
+      },
+      "ClosingSection": {
+        "Title": "Ready to Elevate\nYour Space?",
+        "Paragraph": "From new walls to complete room transformations, our drywall installation service brings your vision to life. Backed by quality materials, expert craftsmanship, and a satisfaction guarantee.\nStart your project today!",
+        "CTA": "Get an estimate"
+      }
+    },
+    "DrywallTaping": {
+      "Hero": {
+        "Title": "Flawless Walls Start Here with Professional Drywall Taping",
+        "Subtitle": "Drywall taping is the foundation of seamless walls, ensuring that every surface looks smooth, polished, and ready for finishing.\n\nAt EZ Patch, we specialize in precise drywall taping that eliminates imperfections, giving your walls the flawless appearance they deserve.",
+        "CTA": "Get an estimate"
+      },
+      "Intro": {
+        "Title": "The Secret to Flawless Walls",
+        "Paragraph": "Drywall taping is more than just covering seams—it\u2019s about creating a strong, durable foundation for your walls.\n\nAt EZ Patch, we use top-grade materials and proven techniques to ensure the integrity and longevity of your walls, providing a result that stands the test of time."
+      },
+      "Benefits": {
+        "ExpertCraftsmanship": "Expert\nCraftsmanship",
+        "FastTurnaround": "Fast\nTurnaround",
+        "PremiumMaterials": "Premium\nMaterials",
+        "AffordablePricing": "Affordable\nPricing"
+      },
+      "ClosingSection": {
+        "Title": "Flawless Foundations\nfor Your Walls",
+        "Paragraph": "Gaps, cracks, and uneven seams can ruin the look of any space. We understand how frustrating it is to see walls that aren\u2019t up to standard.\n\nThat\u2019s why our team focuses on detail and precision, leaving no room for error.\n\nReady for smooth, professional-looking walls? Contact EZ Patch now to get started with expert drywall taping!",
+        "CTA": "Get an estimate"
+      }
+    },
+    "PaintingPriming": {
+      "Hero": {
+        "Title": "Say Goodbye to Flaws and Hello to Perfectly Painted Walls",
+        "Subtitle": "Whether you\u2019re looking to refresh your home, brighten up your office, or create a brand-new look, our professional painting services deliver impeccable results that liven up your space.\n\nFrom color selection to the final brushstroke, we\u2019re with you every step of the way.",
+        "CTA": "Get an estimate"
+      },
+      "Intro": {
+        "Title": "Bring Your Vision to Life with Expert Painting",
+        "Paragraph": "A professionally painted room can change the entire atmosphere of a space. We understand the power of color and precision, ensuring that every wall reflects your vision.\n\nOur team uses high-quality materials and precise techniques to ensure a flawless finish every time. With our expertise, you\u2019ll enjoy vibrant, durable colors that elevate your space instantly."
+      },
+      "Benefits": {
+        "ExpertCraftsmanship": "Expert\nCraftsmanship",
+        "FastTurnaround": "Fast\nTurnaround",
+        "PremiumMaterials": "Premium\nMaterials",
+        "AffordablePricing": "Affordable\nPricing"
+      },
+      "ClosingSection": {
+        "Title": "Flawless Painting\nServices, Done Right",
+        "Paragraph": "Peeling paint? Outdated colors? A dull, uninspired space? We understand how frustrating it can be to live or work in an environment that doesn\u2019t reflect your personality or professionalism.\n\nThat\u2019s why we\u2019re here to provide seamless painting solutions tailored to your unique needs.\n\nDon\u2019t wait to transform your walls. Get in touch with EZ Patch today for a free estimate!",
+        "CTA": "Get an estimate"
+      }
+    },
+    "TextureMatching": {
+      "Hero": {
+        "Title": "Texture Matching for\nInvisible Repairs",
+        "Subtitle": "Cracks, patches, or remodels—whatever the cause, we make your walls look like nothing ever happened.\n\nPrecision blending, clean results, and no mismatched spots.",
+        "CTA": "Get an estimate"
+      },
+      "Intro": {
+        "Title": "What Makes Texture Matching So Important?",
+        "Paragraph": "When you patch a wall, the repair isn\u2019t done until the texture matches. Even a flawless patch will stand out if the texture is off. Our experts study the original wall pattern—be it orange peel, knockdown, smooth, or custom hand-applied—and replicate it with exacting detail.\n\nWe use the right tools and techniques to recreate your wall\u2019s look, ensuring a truly invisible finish. No ridges, no shadows, no signs of the repair—just one uniform surface from corner to corner."
+      },
+      "Benefits": {
+        "ExpertCraftsmanship": "Expert\nCraftsmanship",
+        "FastTurnaround": "Fast\nTurnaround",
+        "PremiumMaterials": "Premium\nMaterials",
+        "AffordablePricing": "Affordable\nPricing"
+      },
+      "ClosingSection": {
+        "Title": "Want It to Look Like New? Let\u2019s Match That Texture",
+        "Paragraph": "Don\u2019t settle for repairs that look like patches. We specialize <bold>in blending textures so well, you\u2019ll forget where the damage even was.</bold>\nReach out now for professional texture matching that disappears into your wall.",
+        "CTA": "Get an estimate"
+      }
+    },
+    "WaterDamageRepair": {
+      "Hero": {
+        "Title": "From Soaked to Solid We Make Your Walls Flawless Again",
+        "Subtitle": "We don\u2019t just patch over water damage—we cut it out, dry it down, and restore your space like it never happened. Clean, solid, and built to last.",
+        "CTA": "Get an estimate"
+      },
+      "Intro": {
+        "Title": "Why Water Damage\nNeeds More Than a\nQuick Fix",
+        "Paragraph": "Water damage can hide deeper problems—softened drywall, mold growth, and structural risks. That stain on the wall could be just the surface of something much worse.\nWe handle the full repair process from start to finish. Our goal isn\u2019t just to make it look good – it\u2019s to make it last. We restore the integrity of your walls and ceilings so the damage doesn\u2019t come back."
+      },
+      "Benefits": {
+        "ExpertCraftsmanship": "Expert\nCraftsmanship",
+        "FastTurnaround": "Fast\nTurnaround",
+        "PremiumMaterials": "Premium\nMaterials",
+        "AffordablePricing": "Affordable\nPricing"
+      },
+      "ClosingSection": {
+        "Title": "Water Damage? We\u2019re\nReady to Cut, Dry,\nand Repair",
+        "Paragraph": "No more hiding the problem behind a coat of paint. We do it the right way. From tear-out to full restoration—so your home stays safe, clean, and worry-free.\n\nLet us handle the mess and bring your walls back to life.",
+        "CTA": "Get an estimate"
+      }
+    },
+    "LathPlasterRepair": {
+      "Hero": {
+        "Title": "Restore the Charm with our\nExpert Lath & Plaster\nRepair Services",
+        "Subtitle": "From minor cracks to full wall restorations, we bring old walls back to life. Skilled repairs, clean finishes, and timeless craftsmanship—no shortcuts, just solid results.",
+        "CTA": "Get an estimate"
+      },
+      "Intro": {
+        "Title": "Why Lath & Plaster Repair Still Matters",
+        "Paragraph": "Lath and plaster walls were built to last, but time, water damage, or renovation work can leave them cracked or crumbling. Our team specializes in blending old-world techniques with modern tools to repair, patch, and seamlessly match your wall\u2019s original texture.\n\nWhether you\u2019re preserving historic details or just want a smooth, durable surface, we carefully open sections, reinforce the lath, and apply layered plaster for a flawless finish that holds up for years."
+      },
+      "Benefits": {
+        "ExpertCraftsmanship": "Expert\nCraftsmanship",
+        "FastTurnaround": "Fast\nTurnaround",
+        "PremiumMaterials": "Premium\nMaterials",
+        "AffordablePricing": "Affordable\nPricing"
+      },
+      "ClosingSection": {
+        "Title": "Time to Revive Those Walls? We\u2019ve Got You Covered",
+        "Paragraph": "Don\u2019t let damaged plaster bring down the look of your home.\nOur experienced team will handle everything – from cleanup and surface prep to precise texture matching – so your walls look better than ever.\nGet in touch today and bring back that clean, classic look.",
+        "CTA": "Get an estimate"
       }
     }
   }

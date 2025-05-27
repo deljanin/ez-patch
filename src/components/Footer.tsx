@@ -11,7 +11,7 @@ function Footer() {
   const servicesKeys = Object.keys(messages.Layout.Footer.Services.Links);
 
   return (
-    <div className="footer flex w-full flex-col items-center justify-end gap-16 self-stretch bg-white p-10">
+    <div className="footer flex w-full flex-col items-center justify-end gap-16 self-stretch bg-white p-10 shadow-[0_-4px_32px_rgba(0,0,0,0.25)]">
       <div className="flex w-full items-start justify-between px-48">
         <Image src={LogoFooter} width={218} height={139} alt={t("Logo")} />
         <div className="flex flex-col items-start gap-2.5">

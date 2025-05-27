@@ -20,7 +20,7 @@ function Button({
       type={type || "button"}
       onClick={onClick}
       disabled={disabled}
-      className={`bg-red-main font-mansfield group inline-flex cursor-pointer items-center justify-center gap-1.5 rounded-md px-3 py-1.5 text-white transition-all duration-200 hover:scale-105 ${styles}`}
+      className={`bg-red-main font-mansfield group inline-flex cursor-pointer items-center justify-center gap-1.5 rounded-md px-3 py-1.5 font-extrabold text-white transition-all duration-200 hover:scale-105 ${styles}`}
     >
       {children}
       {icon && (
