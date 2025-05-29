@@ -11,9 +11,11 @@ function Footer() {
   const servicesKeys = Object.keys(messages.Layout.Footer.Services.Links);
 
   return (
-    <div className="footer flex w-full flex-col items-center justify-end gap-16 self-stretch bg-white p-10 shadow-[0_-4px_32px_rgba(0,0,0,0.25)]">
-      <div className="flex w-full items-start justify-between px-48">
-        <Image src={LogoFooter} width={218} height={139} alt={t("Logo")} />
+    <div className="footer flex w-full flex-col items-center justify-end gap-16 self-stretch bg-white p-10 px-5 shadow-[0_-4px_32px_rgba(0,0,0,0.25)] sm:px-16 lg:px-32 xl:px-48">
+      <div className="flex w-full flex-col gap-5 md:grid md:grid-cols-3 2xl:flex 2xl:flex-row 2xl:justify-between 2xl:gap-0">
+        <div className="md:row-span-2">
+          <Image src={LogoFooter} width={218} height={139} alt={t("Logo")} />
+        </div>
         <div className="flex flex-col items-start gap-2.5">
           <div className="navigation text-2xl font-bold underline">
             {t("Navigation.Title")}
@@ -35,7 +37,7 @@ function Footer() {
           <div className="services self-stretch text-2xl font-bold underline">
             {t("Services.Title")}
           </div>
-          <ul className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:grid-rows-4">
+          <ul className="grid grid-cols-1 gap-2.5 lg:grid-cols-2 lg:grid-rows-4 2xl:gap-4">
             {servicesKeys.map((key) => (
               <li key={key} className="group">
                 <Link
@@ -72,10 +74,10 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex w-full items-start justify-between px-48">
-        <div className="flex w-full flex-shrink-0 items-center justify-between">
+      <div className="flex w-full items-start justify-between">
+        <div className="flex w-full flex-shrink-0 flex-col justify-between gap-2.5 md:flex-row xl:items-center xl:gap-0">
           <div className="">{t("BottomBar.Copyright")}</div>
-          <div className="flex items-center gap-8">
+          <div className="flex flex-col gap-2.5 md:flex-row xl:items-center xl:gap-8">
             <div className="group">
               <Link
                 href={t("BottomBar.Privacy.Link")}

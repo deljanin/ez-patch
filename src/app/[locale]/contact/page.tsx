@@ -7,14 +7,14 @@ function ContactPage() {
   return (
     <div
       id="contact"
-      className="flex w-full items-center justify-center px-5 py-8 sm:px-16 lg:px-32 xl:px-48"
+      className="flex w-full items-center justify-center px-5 py-20 sm:px-16 lg:px-32 xl:px-48"
     >
-      <div className="flex w-full flex-col items-center justify-center gap-10 px-8 py-8 sm:px-16 sm:py-10 md:px-20 md:py-16 lg:px-32 lg:py-20 xl:px-48 xl:py-24 2xl:px-32 2xl:py-20">
-        <H2 styles="">{t("Title")}</H2>
-        <div className="flex flex-col items-center md:flex-row">
+      <div className="flex w-full flex-col items-center justify-center gap-10 pt-5 sm:py-10 md:py-16 lg:py-20 xl:py-24 2xl:py-10">
+        <H2 styles="text-center md:text-left">{t("Title")}</H2>
+        <div className="flex flex-col gap-8 lg:flex-row 2xl:gap-0">
           <div className="flex flex-col">
-            <H3 styles="">{t("Subtitle")}</H3>
-            <ol className="max-w-2/3 list-outside list-decimal pl-5 whitespace-pre-line">
+            <H3 styles="md:text-4xl">{t("Subtitle")}</H3>
+            <ol className="text:lg w-full list-outside list-decimal pl-5 whitespace-pre-line md:text-xl 2xl:max-w-2/3">
               <li className="py-2 font-extralight">
                 <b className="font-bold">{t("Step1")}</b>
                 {"\n"}

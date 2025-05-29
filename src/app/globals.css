@@ -5,6 +5,7 @@
   --font-mansfield: var(--font-mansfield);
   --color-white-main: #f3f3f3;
   --color-red-main: #e52427;
+  --breakpoint-3xl: 1780px;
 }
 :root {
 }

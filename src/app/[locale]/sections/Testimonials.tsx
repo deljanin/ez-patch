@@ -13,7 +13,7 @@ function Testimonials() {
   const testimonialElements = testimonialKeys.map((testimonial, index) => (
     <div
       key={index}
-      className="group relative flex h-[250px] w-full flex-shrink-0 flex-col items-center gap-4 rounded-3xl bg-white shadow-[0_0_20px_0_rgba(0,0,0,0.25)] select-none md:w-[400px]"
+      className="group relative flex h-[250px] w-[calc(100vw-80px)] flex-shrink-0 flex-col items-center gap-4 rounded-3xl bg-white shadow-[0_0_20px_0_rgba(0,0,0,0.25)] select-none sm:w-[400px]"
     >
       <div className="flex h-full flex-col gap-4 px-6 pt-8">
         <H3 styles="text-red-main">{t(`${testimonial}.Name`)}</H3>
@@ -38,8 +38,8 @@ function Testimonials() {
   ));
 
   return (
-    <div className="flex min-h-[50vh] w-full flex-col items-center justify-center gap-5 px-5 sm:pl-16 md:flex-row md:pr-0 lg:pl-32 xl:pl-48">
-      <div className="flex shrink-0 flex-col justify-center gap-6">
+    <div className="flex min-h-[50vh] w-full flex-col items-center justify-center gap-5 md:flex-row">
+      <div className="flex shrink-0 flex-col justify-center gap-6 px-5 md:pr-0 md:pl-16 lg:pl-32 xl:pl-48">
         <H2 styles="whitespace-pre-line">
           {t.rich("Title", {
             underline: (chunks) => <u>{chunks}</u>,
@@ -53,8 +53,8 @@ function Testimonials() {
 
       {/* Sliding Testimonials */}
       <div className="relative w-full overflow-hidden p-5" aria-hidden="true">
-        <div className="from-white-main absolute top-0 left-0 z-10 h-full w-[50px] bg-gradient-to-r to-transparent" />
-        <div className="from-white-main absolute top-0 right-0 z-10 h-full w-[50px] bg-gradient-to-l to-transparent" />
+        <div className="from-white-main absolute top-0 left-0 z-10 hidden h-full w-[50px] bg-gradient-to-r to-transparent md:block" />
+        <div className="from-white-main absolute top-0 right-0 z-10 hidden h-full w-[50px] bg-gradient-to-l to-transparent md:block" />
         <div className="track flex w-max justify-evenly gap-10">
           {[...testimonialElements, ...testimonialElements].map((item, i) => (
             <div key={i}>{item}</div>

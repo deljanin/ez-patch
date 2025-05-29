@@ -37,8 +37,8 @@ export default function FAQ() {
                     xmlns="http://www.w3.org/2000/svg"
                     className={
                       index === i
-                        ? "rotate-135 transition-transform duration-300"
-                        : "transition-transform duration-300"
+                        ? "shrink-0 rotate-135 transition-transform duration-300"
+                        : "shrink-0 transition-transform duration-300"
                     }
                   >
                     <path

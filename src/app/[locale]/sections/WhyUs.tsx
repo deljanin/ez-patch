@@ -14,26 +14,30 @@ function WhyUs() {
   const stats = Object.keys(messages.HomePage.Stats);
   return (
     <>
-      <div className="grid min-h-screen w-full grid-cols-1 gap-6 px-5 py-28 sm:grid-cols-2 sm:px-16 lg:grid-cols-3 lg:px-32 xl:px-48">
-        <div className="flex max-w-[480px] flex-col items-start justify-center gap-4">
-          <H2 styles="">{t("Title")}</H2>
-          <p className="text-xl font-extralight">{t("Description")}</p>
+      <div className="flex min-h-screen w-full flex-col flex-wrap items-center justify-center gap-6 px-5 py-28 sm:px-16 lg:px-32 xl:flex-row xl:px-48 2xl:grid 2xl:grid-cols-3">
+        <div className="flex max-w-[480px] flex-col items-center justify-center gap-4 xl:items-start">
+          <H2 styles="text-center xl:text-left">{t("Title")}</H2>
+          <p className="text-center text-xl font-extralight xl:text-left">
+            {t("Description")}
+          </p>
         </div>
         {cardKeys.map((key, index) => {
           const Icon = icons[index];
           return (
             <div
               key={key}
-              className="flex h-[19rem] max-w-[480px] flex-shrink-0 items-center justify-center rounded-3xl bg-white px-10 py-0 shadow-[0_0_30px_0_rgba(0,0,0,0.25)]"
+              className="3xl:h-[19rem] 3xl:w-[480px] flex h-auto w-full max-w-sm flex-shrink items-center justify-center rounded-3xl bg-white px-8 py-10 shadow-[0_0_30px_0_rgba(0,0,0,0.25)] sm:w-[90%] md:max-w-md lg:max-w-lg xl:max-w-[480px]"
             >
-              <div className="frame_10 flex h-[19rem] w-[400px] flex-shrink-0 flex-col items-start justify-center gap-6">
-                <div className="flex items-center justify-between self-stretch">
-                  <div className="font-montserrat text-3xl whitespace-pre-line">
+              <div className="frame_10 flex w-full flex-col items-start justify-center gap-4">
+                <div className="flex w-full min-w-0 items-center justify-between">
+                  <div className="font-montserrat text-xl break-words whitespace-pre-line sm:text-2xl md:text-3xl">
                     {t(`${key}.Title`)}
                   </div>
-                  {<Icon />}
+                  <div className="size-12 flex-shrink-0 lg:size-14">
+                    {<Icon />}
+                  </div>
                 </div>
-                <div className="self-stretch font-extralight">
+                <div className="w-full font-extralight break-words">
                   {t.rich(`${key}.Description`, {
                     bold: (chunks) => <b className="font-black">{chunks}</b>,
                   })}
@@ -43,7 +47,7 @@ function WhyUs() {
           );
         })}
       </div>
-      <div className="flex items-center justify-center py-5 xl:gap-52">
+      <div className="mx-auto grid grid-cols-2 place-items-center gap-8 pb-10 md:flex md:items-center md:justify-center xl:gap-52">
         {stats.map((stat) => (
           <div key={stat} className="flex flex-col justify-center gap-2 px-4">
             <div className="font-montserrat text-3xl">
@@ -67,13 +71,7 @@ export default WhyUs;
 const icons = [
   function IconOne() {
     return (
-      <svg
-        width={60}
-        height={60}
-        viewBox="0 0 54 51"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg viewBox="0 0 54 51" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           d="M37.7543 0.85791C37.9373 0.837528 38.1221 0.844853 38.3022 0.879395L38.4809 0.92334C38.6571 0.97591 38.8238 1.05484 38.976 1.15674L39.1235 1.26611C39.2655 1.38348 39.3892 1.5217 39.4897 1.67529L39.5825 1.8335C39.6956 2.05122 39.7634 2.29003 39.7827 2.53467L39.7836 2.54541L39.7846 2.55713L42.1645 23.9302L42.2338 24.5532H45.52C50.0041 24.5535 53.7187 27.9789 53.2612 32.2485C52.5856 38.4673 50.5284 42.999 48.6508 45.9683C47.7115 47.4537 46.816 48.5489 46.1606 49.269C45.833 49.6289 45.5653 49.8951 45.3823 50.0688C45.3495 50.1 45.3187 50.1276 45.2914 50.1528H18.2299C18.2826 50.0749 18.3392 49.9943 18.3959 49.9087C18.9813 49.0255 19.7746 47.7381 20.6176 46.1138L20.6186 46.1147C22.4343 42.6333 23.7665 38.9214 24.5795 35.0825L24.7348 34.313L24.7358 34.3091C25.713 29.079 29.7519 24.5534 34.8373 24.5532H38.5453L38.4594 23.7759L36.1479 2.9624L36.1459 2.95068L36.145 2.93994L36.1274 2.75635C36.1222 2.6342 36.1297 2.51186 36.1489 2.39111L36.186 2.21143C36.2329 2.03346 36.3067 1.86403 36.4037 1.7085L36.5082 1.55811C36.6208 1.41253 36.7547 1.28455 36.9047 1.1792L37.06 1.08154C37.2207 0.991303 37.3941 0.92565 37.5737 0.887207L37.7543 0.85791ZM34.8344 28.2153C32.2049 28.2153 29.3037 30.6514 28.4174 34.5942L28.3373 34.98V34.981C27.5803 39.0483 26.295 42.6186 24.9868 45.5015L24.5375 46.4907H33.3969L33.5639 46.3892C37.2231 44.1668 39.727 41.2785 41.017 37.2095H42.311C42.1651 40.2754 41.0776 43.2716 39.4789 45.3657L38.6196 46.4907H43.7358L43.9457 46.2368C44.5305 45.5303 45.0689 44.7863 45.5561 44.0093L45.5551 44.0083C47.1736 41.4492 49.0143 37.4448 49.6176 31.853L49.6166 31.8521C49.6612 31.4571 49.6232 31.0578 49.5034 30.6802L49.4467 30.519C49.2861 30.1022 49.0281 29.7302 48.6957 29.4321C47.9582 28.7211 46.8191 28.2153 45.5229 28.2153H34.8344ZM5.90375 32.9907H14.3412C14.7662 32.9907 15.1756 33.1388 15.5014 33.4058L15.6362 33.5269C15.9796 33.8702 16.1723 34.3362 16.1723 34.8218C16.1723 35.2468 16.0253 35.657 15.7582 35.9829L15.6362 36.1167C15.2927 36.4601 14.8269 36.6528 14.3412 36.6528H5.90375C5.41807 36.6528 4.95225 36.4601 4.60883 36.1167C4.26544 35.7733 4.07269 35.3074 4.07269 34.8218C4.07273 34.397 4.21999 33.9874 4.48676 33.6616L4.60883 33.5269C4.95224 33.1835 5.4181 32.9907 5.90375 32.9907ZM2.52875 21.1782H21.0912C21.5162 21.1782 21.9256 21.3263 22.2514 21.5933L22.3862 21.7144C22.7296 22.0577 22.9223 22.5237 22.9223 23.0093C22.9223 23.4343 22.7753 23.8445 22.5082 24.1704L22.3862 24.3042C22.0427 24.6476 21.5769 24.8403 21.0912 24.8403H2.52875C2.10395 24.8403 1.69439 24.6931 1.36859 24.4263L1.23383 24.3042C0.890445 23.9608 0.697693 23.4949 0.697693 23.0093C0.697726 22.5845 0.844987 22.1749 1.11176 21.8491L1.23383 21.7144C1.57725 21.371 2.0431 21.1782 2.52875 21.1782ZM12.6537 9.36572H27.8412C28.2662 9.36572 28.6755 9.5138 29.0014 9.78076L29.1362 9.90186C29.4796 10.2452 29.6723 10.7112 29.6723 11.1968C29.6723 11.6218 29.5253 12.032 29.2582 12.3579L29.1362 12.4917C28.7927 12.8351 28.3269 13.0278 27.8412 13.0278H12.6537C12.229 13.0278 11.8194 12.8806 11.4936 12.6138L11.3588 12.4917C11.0154 12.1483 10.8227 11.6824 10.8227 11.1968C10.8227 10.772 10.97 10.3624 11.2368 10.0366L11.3588 9.90186C11.7022 9.55847 12.1681 9.36572 12.6537 9.36572Z"
           stroke="#E52427"
@@ -84,13 +82,7 @@ const icons = [
   },
   function IconTwo() {
     return (
-      <svg
-        width="56"
-        height="56"
-        viewBox="0 0 58 53"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg viewBox="0 0 58 53" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           d="M26.1315 27.6953L12.0418 41.8729C10.6328 43.2996 10.6328 45.618 12.0418 47.0446L12.2179 47.223C13.6269 48.6497 15.8284 48.6497 17.2374 47.223L31.3271 32.9562"
           stroke="#E52427"
@@ -160,13 +152,7 @@ const icons = [
   },
   function IconThree() {
     return (
-      <svg
-        width="53"
-        height="53"
-        viewBox="0 0 50 51"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clipPath="url(#clip0_77_332)">
           <path
             d="M41.2998 10.6826V24.8398C41.2998 30.5865 39.6633 35.8226 36.3818 40.5654L36.0596 41.0225C32.6037 45.8285 28.2533 48.8985 23 50.2754C17.9142 48.9405 13.6733 46.0189 10.2705 41.4707L9.94043 41.0195C6.44235 36.1568 4.69865 30.7699 4.7002 24.8398V10.6826L23 3.74805L41.2998 10.6826ZM37.9502 13.0166L37.498 12.8457L23.248 7.44531L23 7.35156L22.752 7.44531L8.50195 12.8457L8.0498 13.0166V24.8398C8.0498 29.663 9.35206 34.072 11.9531 38.0498L12.209 38.4336C14.9785 42.508 18.5047 45.2541 22.7861 46.627L23 46.6953L23.2139 46.627C27.3616 45.297 30.8005 42.6782 33.5293 38.8115L33.791 38.4336C36.5625 34.3562 37.9502 29.8186 37.9502 24.8398V13.0166Z"
@@ -189,13 +175,7 @@ const icons = [
   },
   function IconFour() {
     return (
-      <svg
-        width="67"
-        height="67"
-        viewBox="0 0 60 61"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg viewBox="0 0 60 61" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           d="M41.925 30.6221H35.7937"
           stroke="#E52427"
@@ -265,13 +245,7 @@ const icons = [
   },
   function IconFive() {
     return (
-      <svg
-        width="60"
-        height="60"
-        viewBox="0 0 60 61"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg viewBox="0 0 60 61" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           d="M59.3873 16.9021H54.7683C54.4383 16.9021 54.1555 17.1849 54.1555 17.5148C54.1555 17.8448 54.4383 18.1276 54.7683 18.1276H58.7746V59.2744H17.6748L17.7219 55.2682C17.7219 54.9382 17.4391 54.6554 17.1092 54.6554C16.7793 54.6554 16.4965 54.9382 16.4965 55.2682L16.4493 59.8872C16.4493 60.0757 16.4965 60.2171 16.6379 60.3114C16.7321 60.4528 16.9207 60.4999 17.0621 60.4999H59.3873C59.7172 60.4999 60 60.2171 60 59.8872V17.5148C60 17.1849 59.7172 16.9021 59.3873 16.9021Z"
           fill="#E52427"

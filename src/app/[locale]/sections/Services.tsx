@@ -41,14 +41,14 @@ function Services() {
   const cardElements = cardData.map((card, index) => (
     <div
       key={index}
-      className="group flex h-[650px] w-full flex-col items-center gap-4 rounded-3xl bg-white shadow-[0_0_20px_0_rgba(0,0,0,0.25)] transition-transform duration-300 hover:scale-[1.025] md:w-[400px]"
+      className="group flex w-full flex-col items-center gap-4 rounded-3xl bg-white pb-4 shadow-[0_0_20px_0_rgba(0,0,0,0.25)] transition-transform duration-300 hover:scale-[1.025] md:w-[400px] xl:h-[650px]"
     >
       <Image
         src={card.image}
         alt={card.title}
         className="h-auto w-full rounded-t-3xl"
       />
-      <div className="flex h-full flex-col items-center gap-4 px-5 pt-10">
+      <div className="flex h-full flex-col items-center gap-4 p-5 xl:pt-10">
         <H3>{card.title}</H3>
         <p className="text-center font-extralight">{card.description}</p>
         <Link href={card.path}>
@@ -66,10 +66,10 @@ function Services() {
   return (
     <div
       id="services"
-      className="flex min-h-screen w-full flex-col items-center justify-center gap-20 px-5 py-28"
+      className="flex min-h-screen w-full flex-col items-center justify-center gap-20 px-8 py-28 text-center"
     >
       <H2>{t("Title")}</H2>
-      <div className="flex flex-wrap justify-evenly gap-y-12">
+      <div className="flex flex-wrap justify-evenly gap-y-8 md:gap-x-5 xl:gap-y-12 2xl:gap-x-2">
         {cardElements}
       </div>
     </div>

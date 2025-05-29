@@ -42,7 +42,7 @@ export function BeforeAfter({
 
   return (
     <div
-      className="relative w-full rounded-3xl px-5 py-28 sm:grid-cols-2 sm:px-16 lg:grid-cols-3 lg:px-32 xl:px-48 2xl:px-64"
+      className="relative w-full rounded-3xl px-5 py-20 sm:grid-cols-2 sm:px-16 lg:grid-cols-3 lg:px-32 lg:py-28 xl:px-48 2xl:px-64"
       onMouseUp={handleInteractionEnd}
       onTouchEnd={handleInteractionEnd}
     >

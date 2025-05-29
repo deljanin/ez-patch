@@ -10,10 +10,17 @@ function Hero() {
   const lenis = useLenis();
   const t = useTranslations("HomePage.Hero");
   return (
-    <div className="relative flex min-h-screen w-full flex-col justify-center px-5 sm:px-16 lg:px-32 xl:px-48">
-      <div className="flex w-2/5 flex-col gap-7">
-        <H1 styles="lg:text-6xl lg:leading-18">{t("Title")}</H1>
-        <p className="text-xl font-extralight">{t("Subtitle")}</p>
+    <div
+      id="hero"
+      className="relative flex min-h-screen w-full flex-col items-center justify-center px-5 sm:px-16 lg:px-32 xl:items-start xl:px-48"
+    >
+      <div className="flex w-full flex-col items-center gap-7 md:w-3/5 xl:items-start 2xl:w-2/5">
+        <H1 styles="text-white text-center xl:text-left xl:text-black lg:text-6xl lg:leading-18 text-shadow-md ">
+          {t("Title")}
+        </H1>
+        <p className="text-center text-xl font-extralight text-white text-shadow-md xl:text-left xl:text-black">
+          {t("Subtitle")}
+        </p>
         <Link
           href="/#contact"
           onClick={() => {
@@ -25,13 +32,14 @@ function Hero() {
           </Button>
         </Link>
       </div>
-      <div className="absolute top-0 right-0 -z-10 h-full w-[55%]">
+      <div className="absolute top-0 right-0 -z-10 h-full w-full xl:w-[55%]">
         <Image
           src={HeroImage}
           alt="Hero Image"
           fill
-          className="object-cover object-right"
+          className="object-cover object-[25%] sm:object-left"
         />
+        <div className="h-full w-full bg-black opacity-25 xl:opacity-0"></div>
       </div>
     </div>
   );

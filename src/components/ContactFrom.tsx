@@ -72,7 +72,7 @@ function ContactForm({ shadow = true }: { shadow?: boolean }) {
       onSubmit={onSubmit}
     >
       <Form
-        className={`xl:w-[60 0px] flex w-full flex-col gap-4 rounded-3xl bg-white px-20 py-12 lg:w-1/2 ${shadow ? "shadow-[0px_0px_32px_0px_rgba(0,0,0,0.25)]" : ""}`}
+        className={`flex w-full shrink-0 flex-col gap-4 rounded-3xl bg-white px-6 py-6 md:px-10 lg:w-1/2 xl:px-20 2xl:w-[600px] ${shadow ? "shadow-[0px_0px_32px_0px_rgba(0,0,0,0.25)]" : ""}`}
       >
         <Field type="text" name="extra" className="hidden" />
         <div id="nameInput">
@@ -227,11 +227,11 @@ function ServiceDropdown() {
   }, []);
 
   return (
-    <div className="relative w-full max-w-sm" ref={dropdownRef}>
+    <div className="relative w-full" ref={dropdownRef}>
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="relative w-full py-2 pr-5 text-left"
+        className="relative w-full py-2 pr-8 text-left"
       >
         {selected.length > 0 ? selected.join(", ") : "Select services"}
         <svg

@@ -7,7 +7,7 @@ export function H1({
 }) {
   return (
     <h1
-      className={`font-montserrat text-4xl leading-14 whitespace-pre-line sm:text-5xl ${styles}`}
+      className={`font-montserrat text-4xl leading-10 whitespace-pre-line sm:text-5xl sm:leading-14 ${styles}`}
     >
       {children}
     </h1>
@@ -54,7 +54,9 @@ export function H4({
   styles?: string;
 }) {
   return (
-    <h3 className={`font-montserrat text-xl whitespace-pre-line ${styles}`}>
+    <h3
+      className={`font-montserrat text-lg sm:text-xl sm:whitespace-pre-line ${styles}`}
+    >
       {children}
     </h3>
   );

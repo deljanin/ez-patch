@@ -8,7 +8,41 @@
         },
         "Services": {
           "Text": "Services",
-          "Link": "/#services"
+          "Link": "/#services",
+          "ServicesDropdown": {
+            "DrywallRepair": {
+              "Text": "Drywall Repair",
+              "Link": "/services/drywall-repair"
+            },
+            "CeilingRepair": {
+              "Text": "Ceiling Repair",
+              "Link": "/services/ceiling-repair"
+            },
+            "DrywallInstallation": {
+              "Text": "Drywall Installation",
+              "Link": "/services/drywall-installation"
+            },
+            "TapingMudding": {
+              "Text": "Taping & Mudding",
+              "Link": "/services/taping-mudding"
+            },
+            "PaintingPriming": {
+              "Text": "Painting & Priming",
+              "Link": "/services/painting-priming"
+            },
+            "TextureMatching": {
+              "Text": "Texture Matching",
+              "Link": "/services/texture-matching"
+            },
+            "WaterDamageRepair": {
+              "Text": "Water Damage Repair",
+              "Link": "/services/water-damage-repair"
+            },
+            "LathPlasterRepair": {
+              "Text": "Lath & Plaster Repair",
+              "Link": "/services/lath-plaster-repair"
+            }
+          }
         },
         "Contact": {
           "Text": "Contact",

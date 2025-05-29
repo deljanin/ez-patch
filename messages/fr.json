@@ -8,7 +8,41 @@
         },
         "Services": {
           "Text": "Services",
-          "Link": "/#services"
+          "Link": "/#services",
+          "ServicesDropdown": {
+            "DrywallRepair": {
+              "Text": "Drywall Repair",
+              "Link": "/services/drywall-repair"
+            },
+            "CeilingRepair": {
+              "Text": "Ceiling Repair",
+              "Link": "/services/ceiling-repair"
+            },
+            "DrywallInstallation": {
+              "Text": "Drywall Installation",
+              "Link": "/services/drywall-installation"
+            },
+            "TapingMudding": {
+              "Text": "Taping & Mudding",
+              "Link": "/services/taping-mudding"
+            },
+            "PaintingPriming": {
+              "Text": "Painting & Priming",
+              "Link": "/services/painting-priming"
+            },
+            "TextureMatching": {
+              "Text": "Texture Matching",
+              "Link": "/services/texture-matching"
+            },
+            "WaterDamageRepair": {
+              "Text": "Water Damage Repair",
+              "Link": "/services/water-damage-repair"
+            },
+            "LathPlasterRepair": {
+              "Text": "Lath & Plaster Repair",
+              "Link": "/services/lath-plaster-repair"
+            }
+          }
         },
         "Contact": {
           "Text": "Contact",
@@ -106,7 +140,7 @@
   },
   "HomePage": {
     "Hero": {
-      "Title": "Drywall Repairs, Installs & Finishing  in French",
+      "Title": "Drywall Repairs, Installs & Finishing in French",
       "Subtitle": "We handle everything, from the smallest patch to the final coat of paint, with one crew you can rely on from start to completion."
     },
     "Services": {
