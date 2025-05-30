@@ -8,6 +8,7 @@ import { Link } from "@/i18n/routing";
 import { useLocale, useTranslations, useMessages } from "next-intl";
 import Button from "./Button";
 import { useLenis } from "lenis/react";
+import { H3 } from "./Headings";
 
 function Navbar() {
   const lenis = useLenis();
@@ -40,7 +41,7 @@ function Navbar() {
   return (
     <>
       {/* Mobile menu */}
-      <div
+      <nav
         className={`${isOpenMobileMenu ? "translate-x-0" : "translate-x-full"} bg-white-main fixed top-0 right-0 left-0 z-50 flex h-screen w-full transform flex-col items-end justify-center px-5 shadow-[0_0_32px_rgba(0,0,0,0.25)] transition-transform duration-500 sm:px-16 md:hidden`}
       >
         <div className="flex h-full flex-col items-end justify-between py-5">
@@ -105,14 +106,23 @@ function Navbar() {
             })}
           </div>
           <button
-            className="text-2xl"
+            className="mb-13 text-2xl"
             onClick={changeLanguage}
             disabled={isPending}
           >
             {localeActive === "fr" ? "EN" : "FR"}
           </button>
         </div>
-      </div>
+      </nav>
+      <a href="tel:+118553972824">
+        <div className="fixed right-0 bottom-0 left-0 z-50 flex items-center justify-center gap-4 bg-white py-2 md:hidden">
+          <H3>Call us</H3>
+          <Button icon={false} styles="text-lg px-4">
+            1855-EZPATCH
+          </Button>
+        </div>
+      </a>
+
       <nav className="fixed top-0 z-100 flex h-16 w-full flex-shrink-0 items-center justify-between overflow-visible bg-white px-5 shadow-[0_0_15px_0_rgba(0,0,0,0.25)] sm:px-16 lg:px-32 xl:px-48">
         <Link href="/">
           <Image src={LogoNav} alt="Logo" width={180} height={40} />
